@@ -1,1 +1,16 @@
-BugID,Title,Steps,Expected,Actual,Severity
+BugID,Title,Module,Description,Steps To Reproduce,Expected Result,Actual Result,Severity,Status
+BUG001,Duplicate submit button ID,Login,Multiple elements have same id submit,Open login page and inspect submit button,Each element should have unique ID,Duplicate id found,Major,Open
+BUG002,Duplicate error message ID,Login,Multiple error messages share same ID,Enter wrong credentials and inspect error message,Unique IDs required,Duplicate ID present,Major,Open
+BUG003,No real-time validation,Login,No validation while typing invalid data,Type invalid email,Validation message should appear,No message shown,Major,Open
+BUG004,Password visible,Login,Password visible while typing,Type password,Password should be masked,Password visible,Minor,Open
+BUG005,Invalid email accepted,Login,Email format not validated,Enter abc,Error shown,Accepted,Minor,Open
+BUG006,No loading indicator,Login,No loader after clicking login,Click login,Loader displayed,No loader,Minor,Open
+BUG007,Captcha misaligned,Login,Captcha overlaps form,Open login page,Proper alignment,Overlapping,Minor,Open
+BUG008,Capitalization issue,Dashboard,Inconsistent casing in labels,View dashboard,Consistent text,Mismatch,Trivial,Open
+BUG009,Commented code in production,Global,Commented code visible in source,View source,No commented code,Present,Trivial,Open
+BUG010,Missing placeholder,Login,Input fields have no placeholder,Open login,Placeholder visible,Missing,Minor,Open
+BUG011,No forgot password link,Login,Password recovery link missing,Open login,Link present,Not present,Minor,Open
+BUG012,Tab order incorrect,Login,Tab navigation broken,Press TAB,Proper order,Wrong order,Minor,Open
+BUG013,Low contrast button,Login,Button text hard to read,View login button,Readable text,Low contrast,Trivial,Open
+BUG014,Empty submit allowed,Login,Form submits empty,Click login without data,Error shown,No error,Major,Open
+BUG015,Remember me missing,Login,Remember me option missing,Open login,Checkbox present,Missing,Minor,Open

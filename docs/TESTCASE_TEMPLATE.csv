@@ -1,0 +1,16 @@
+TC_ID,ScenarioID,Test Case Description,Precondition,Steps,Expected Result,Actual Result,Status
+TC001,TS001,Valid login,User on login page,Enter valid email and password,Login success,,Pass
+TC002,TS002,Invalid email,User on login page,Enter wrong email,Error message,,Pass
+TC003,TS003,Invalid password,User on login page,Enter wrong password,Error shown,,Pass
+TC004,TS004,Empty submit,User on login page,Click login empty,Validation message,,Fail
+TC005,TS005,Email format validation,User on login page,Enter abc,Format error,,Fail
+TC006,TS006,Password masked,User on login page,Type password,Masked,,Pass
+TC007,TS007,Forgot password link,User on login page,Click forgot,Page opens,,Fail
+TC008,TS008,Remember me,User on login page,Click checkbox,Checked,,Fail
+TC009,TS009,Captcha visible,User on login page,View captcha,Visible,,Pass
+TC010,TS011,Dashboard load,User logged in,View dashboard,Loads,,Pass
+TC011,TS014,Create assessment,Logged in,Click create,Form opens,,Pass
+TC012,TS018,Create question,Logged in,Add question,Created,,Pass
+TC013,TS021,Create template,Logged in,Add template,Created,,Pass
+TC014,TS024,Create test,Logged in,Add test,Created,,Pass
+TC015,TS027,Schedule test,Logged in,Schedule,Success,,Pass

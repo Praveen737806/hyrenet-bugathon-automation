@@ -1,0 +1,11 @@
+RequirementID,Requirement Description,ScenarioID,TestCaseID
+REQ01,Login functionality,TS001,TC001
+REQ02,Invalid login validation,TS002,TC002
+REQ03,Password security,TS006,TC006
+REQ04,Forgot password,TS007,TC007
+REQ05,Dashboard access,TS011,TC010
+REQ06,Create assessment,TS014,TC011
+REQ07,Create question,TS018,TC012
+REQ08,Create template,TS021,TC013
+REQ09,Create test,TS024,TC014
+REQ10,Schedule test,TS027,TC015

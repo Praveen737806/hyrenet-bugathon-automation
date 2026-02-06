@@ -1,0 +1,45 @@
+ScenarioID,Module,Scenario Description
+TS001,Login,Verify login with valid credentials
+TS002,Login,Verify login with invalid email
+TS003,Login,Verify login with invalid password
+TS004,Login,Verify empty email and password
+TS005,Login,Verify email format validation
+TS006,Login,Verify password masking
+TS007,Login,Verify forgot password link
+TS008,Login,Verify remember me checkbox
+TS009,Login,Verify captcha presence
+TS010,Login,Verify logout
+TS011,Dashboard,Verify dashboard loads
+TS012,Dashboard,Verify profile visible
+TS013,Dashboard,Verify menu navigation
+TS014,Assessment,Verify create assessment
+TS015,Assessment,Verify save assessment
+TS016,Assessment,Verify cancel assessment
+TS017,Assessment,Verify delete assessment
+TS018,Questions,Verify create question
+TS019,Questions,Verify edit question
+TS020,Questions,Verify delete question
+TS021,Template,Verify create template
+TS022,Template,Verify edit template
+TS023,Template,Verify delete template
+TS024,Test,Verify create test
+TS025,Test,Verify edit test
+TS026,Test,Verify delete test
+TS027,Schedule,Verify schedule test
+TS028,Schedule,Verify reschedule test
+TS029,Schedule,Verify cancel test
+TS030,UI,Verify responsive layout
+TS031,UI,Verify alignment
+TS032,UI,Verify font consistency
+TS033,Security,Verify password encryption
+TS034,Security,Verify session timeout
+TS035,Performance,Verify page load time
+TS036,Performance,Verify login response time
+TS037,Accessibility,Verify tab navigation
+TS038,Accessibility,Verify labels
+TS039,Negative,Submit invalid form
+TS040,Negative,Delete without permission
+TS041,Negative,Create empty assessment
+TS042,Regression,Verify previous bugs fixed
+TS043,Regression,Verify no duplicate IDs
+TS044,Smoke,Verify critical flow
